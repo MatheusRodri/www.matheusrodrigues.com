@@ -1,0 +1,32 @@
+.container{
+    height: 60px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        a{
+            color: white;
+            text-decoration: none;
+
+            & + a{
+                margin-left: 20px;
+            }
+        }
+        button{
+            background-color: transparent;
+            border: none;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            height: 25px;
+            margin-left: 5px;
+        }
+    }
+}
